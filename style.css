@@ -1,0 +1,71 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(252,248,152);
+  background: linear-gradient(0deg, rgba(252,248,152,1) 0%, rgba(245,143,18,1) 100%); 
+  font-family: "Georgia", "Arial", "Times New Roman";
+}
+
+
+h1 {
+  margin: auto;
+  margin-top: 2rem;
+  text-decoration:  underline;
+  border: solid white;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  width: 350px;
+  height: 90px;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+header{
+  text-align: center;
+  height: 20vh;
+}
+
+p{
+  font-size: 20px;
+}
+
+.listContainer{
+  display:  grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 3rem;
+}
+
+ul {
+font-size: 20px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+
+.col{
+  height: 3rem;
+}
